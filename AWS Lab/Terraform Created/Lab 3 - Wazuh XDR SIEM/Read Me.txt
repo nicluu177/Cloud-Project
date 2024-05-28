@@ -1,0 +1,16 @@
+Installing Wazuh
+
+
+1. Download and run the Wazuh installation assistant.
+
+curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
+
+
+2. Access the Wazuh web interface with https://<wazuh-dashboard-ip> and your credentials:
+
+Username: admin
+
+Password: <ADMIN_PASSWORD>
+
+
+Reference: https://documentation.wazuh.com/current/quickstart.html
